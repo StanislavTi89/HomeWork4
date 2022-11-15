@@ -2,6 +2,21 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Переменные_Часть2!");
 
+        //Задача 1
+        byte apple = 23;
+        System.out.println("Значение переменной byte с типом apple равно " + apple);
+        short oranges = 15;
+        System.out.println("Значение переменной short с типом oranges равно " + oranges);
+        int tangerines = 50;
+        System.out.println("Значение переменной int с типом tangerines равно " + tangerines);
+        long seeds = 100000L;
+        System.out.println("Значение переменной long с типом seeds равно " + seeds);
+        float meat = 13.50F;
+        System.out.println("Значение переменной float с типом meat равно " + meat);
+        double sugar = 98;
+        System.out.println("Значение переменной double с типом sugar равно " + sugar);
+
+
         //Задача 2
         float a = (float) 27.12;
         System.out.println(a);
