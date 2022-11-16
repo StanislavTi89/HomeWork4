@@ -63,6 +63,7 @@ public class Main {
         int bottleMonth = 16 * 21600;
         System.out.println("Произведено " + bottleMonth + " бутылок за месяц");
 
+
         //Задача 5
         byte schoolColor = 120;
         System.out.println("На ремонт школы нужно " + schoolColor + " банок краски двух цветов");
@@ -118,8 +119,26 @@ public class Main {
 
 
         //Задача 8
-
-
+        short interest = 10;
+        System.out.println("Каждый год повышение составляет " + interest + " % от текущей зарплаты");
+        int manMaria = 67760;
+        System.out.println("Маша получает " + manMaria + " рублей в месяц");
+        int manDenis = 83690;
+        System.out.println("Денис получает " + manDenis + " рублей в месяц");
+        int manKristina = 76230;
+        System.out.println("Кристина получает " + manKristina + " рублей в месяц");
+        int interestMonth1 = (manMaria * interest) / 100;
+        System.out.println(interestMonth1 + " рублей, годовая у Марии");
+        int interestMonth2 = (manDenis * interest) / 100;
+        System.out.println(interestMonth2 + " рублей, годовая у Дениса");
+        int interestMonth3 = (manMaria * interest) / 100;
+        System.out.println(interestMonth3 + " рублей, годовая у Кристины");
+        int fullMaria = manMaria + interestMonth1;
+        System.out.println("Маша теперь получает " + fullMaria + " рублей. Годовой доход вырос на " + interestMonth1 + " рублей");
+        int fullDenis = manDenis + interestMonth2;
+        System.out.println("Денис теперь получает " + fullDenis + " рублей. Годовой доход вырос на " + interestMonth2 + " рублей");
+        int fullristina = manKristina + interestMonth3;
+        System.out.println("Кристина теперь получает " + fullristina + " рублей. Годовой доход вырос на " + interestMonth3 + " рублей");
 
     }
 }
