@@ -3,6 +3,7 @@ public class Main {
         System.out.println("Переменные_Часть2!");
 
         //Задача 1
+        System.out.println("Задача 1");
         byte apple = 23;
         System.out.println("Значение переменной byte с типом apple равно " + apple);
         short oranges = 15;
@@ -18,6 +19,7 @@ public class Main {
 
 
         //Задача 2
+        System.out.println("Задача 2");
         float a = (float) 27.12;
         System.out.println(a);
         long b = 987678965549L;
@@ -37,6 +39,7 @@ public class Main {
 
 
         //Задача 3
+        System.out.println("Задача 3");
         int ticher1 = 23;
         System.out.println(ticher1 + " Ученика в классе у Людмилы Павловны");
         int ticher2 = 27;
@@ -52,6 +55,7 @@ public class Main {
 
 
         //Задача 4
+        System.out.println("Задача 4");
         byte bottle = 16;
         System.out.println("Произведено " + bottle + " бутылок за 2 минуты");
         short bottle20 = 16 * 10;
@@ -65,6 +69,7 @@ public class Main {
 
 
         //Задача 5
+        System.out.println("Задача 5");
         byte schoolColor = 120;
         System.out.println("На ремонт школы нужно " + schoolColor + " банок краски двух цветов");
         byte whiteColor = 2;
@@ -79,6 +84,7 @@ public class Main {
 
 
         //Задача 6
+        System.out.println("Задача 6");
         short bananas = 5;
         System.out.println("Бананы " + bananas + " шт.");
         short grmBananas = 80;
@@ -102,6 +108,7 @@ public class Main {
 
 
         //Задача 7
+        System.out.println("Задача 7");
         byte weight = 7;
         System.out.println("нашему спортсмену нужно похудеть на " + weight + " кг.");
         int grmWeight = weight * 1000;
@@ -119,6 +126,7 @@ public class Main {
 
 
         //Задача 8
+        System.out.println("Задача 8");
         short interest = 10;
         System.out.println("Каждый год повышение составляет " + interest + " % от текущей зарплаты");
         int manMaria = 67760;
