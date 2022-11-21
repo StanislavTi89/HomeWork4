@@ -40,18 +40,18 @@ public class Main {
 
         //Задача 3
         System.out.println("Задача 3");
-        int ticher1 = 23;
-        System.out.println(ticher1 + " Ученика в классе у Людмилы Павловны");
-        int ticher2 = 27;
-        System.out.println(ticher2 + " Учеников в класса у Анны Сергеевны");
-        int ticher3 = 30;
-        System.out.println(ticher3 + " Учеников в классе Екатерины Андреевны");
-        int allClass = ticher1 + ticher2 + ticher3;
+        int teacher1 = 23;
+        System.out.println(teacher1 + " Ученика в классе у Людмилы Павловны");
+        int teacher2 = 27;
+        System.out.println(teacher2 + " Учеников в класса у Анны Сергеевны");
+        int teacher3 = 30;
+        System.out.println(teacher3 + " Учеников в классе Екатерины Андреевны");
+        int allClass = teacher1 + teacher2 + teacher3;
         System.out.println("Всего " + allClass + " учеников на три класса");
         short paper = 480;
         System.out.println(paper + " Листов бумаги закупили на три класса");
-        int ticherPaper = paper / allClass;
-        System.out.println("Всего " + ticherPaper + " Листов достанется каждому ученику");
+        int teacherPaper = paper / allClass;
+        System.out.println("Всего " + teacherPaper + " Листов достанется каждому ученику");
 
 
         //Задача 4
@@ -73,14 +73,14 @@ public class Main {
         byte schoolColor = 120;
         System.out.println("На ремонт школы нужно " + schoolColor + " банок краски двух цветов");
         byte whiteColor = 2;
-        byte broweColor = 4;
-        System.out.println("На один класс уходит " + whiteColor + " банки белой краски и " + broweColor + " банки коричневой краски");
-        int twoColor = whiteColor + broweColor;
+        byte brownColor = 4;
+        System.out.println("На один класс уходит " + whiteColor + " банки белой краски и " + brownColor + " банки коричневой краски");
+        int twoColor = whiteColor + brownColor;
         System.out.println("Всего " + twoColor + " банок краски уходит на один класс");
         int classColors = schoolColor / twoColor;
         int whiteColorsClass = classColors * whiteColor;
-        int broweColorsClass = classColors * broweColor;
-        System.out.println("В школе, где " + classColors + " классов, нужно " + whiteColorsClass + " банок белой краски и " + broweColorsClass + " банок коричневой краски");
+        int brownColorsClass = classColors * brownColor;
+        System.out.println("В школе, где " + classColors + " классов, нужно " + whiteColorsClass + " банок белой краски и " + brownColorsClass + " банок коричневой краски");
 
 
         //Задача 6
@@ -145,8 +145,19 @@ public class Main {
         System.out.println("Маша теперь получает " + fullMaria + " рублей. Годовой доход вырос на " + interestMonth1 + " рублей");
         int fullDenis = manDenis + interestMonth2;
         System.out.println("Денис теперь получает " + fullDenis + " рублей. Годовой доход вырос на " + interestMonth2 + " рублей");
-        int fullristina = manKristina + interestMonth3;
-        System.out.println("Кристина теперь получает " + fullristina + " рублей. Годовой доход вырос на " + interestMonth3 + " рублей");
+        int fullKristina = manKristina + interestMonth3;
+        System.out.println("Кристина теперь получает " + fullKristina + " рублей. Годовой доход вырос на " + interestMonth3 + " рублей");
+
+
+        //Доп.Задания(УРОК 2. ПЕРЕМЕННЫЕ - задача 6)
+        System.out.println("Доп.Задания(УРОК 2. ПЕРЕМЕННЫЕ - задача 6");
+        int a1 = 12;
+        int b1 = 27;
+        int c1 = 44;
+        int d1 = 15;
+        int e1 = 9;
+        int result = a1*(b1+(c1-d1*e1));
+        System.out.println("Результат " + result);
 
     }
 }
