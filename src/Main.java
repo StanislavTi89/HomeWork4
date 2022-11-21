@@ -164,6 +164,22 @@ public class Main {
         System.out.println("Отрицательный результат " + result2);
 
 
+        //Доп.Задания(УРОК 2. ПЕРЕМЕННЫЕ - задача 7)
+        System.out.println("Доп.Задания(УРОК 2. ПЕРЕМЕННЫЕ - задача 6");
+        int a2 = 5;
+        int b2 = 7;
+        System.out.println(a2);
+        System.out.println(b2);
+        int tmp1 = a2;
+        int aFinal = b2;
+        int bFinal = tmp1;
+        System.out.println(aFinal);
+        System.out.println(bFinal);
+
+
+        //Доп.Задания(УРОК 2. ПЕРЕМЕННЫЕ - задача 8)
+        System.out.println("Доп.Задания(УРОК 2. ПЕРЕМЕННЫЕ - задача 8)");
+
 
     }
 }
