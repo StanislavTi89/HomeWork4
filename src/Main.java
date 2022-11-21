@@ -158,6 +158,12 @@ public class Main {
         int e1 = 9;
         int result = a1*(b1+(c1-d1*e1));
         System.out.println("Результат " + result);
+        int result1 = -1 * result;
+        System.out.println("Положительный результат " + result1);
+        int result2 = -1 * result1;
+        System.out.println("Отрицательный результат " + result2);
+
+
 
     }
 }
